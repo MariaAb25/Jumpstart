@@ -1,0 +1,232 @@
+/* Universal*/
+
+html {
+  font-size: 14px;
+
+}
+
+body {
+  font-family: "open sans";
+  line-height: 1.4;
+}
+
+
+h1 {
+  font-family: "Monoton";
+  font-size: 7.1 rem;
+  color: white;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.categories h3 {
+  color: #399bd1;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* navigation bar*/
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+
+/* carousel main*/
+
+.jumbotron {
+  height: 42.6rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 1px -1px 0 #000;
+}
+
+.jumbotron p {
+  font-size: 21px;
+  font-weight: 200;
+  max-width: 51.3rem;
+  margin: auto;
+  color: white;
+}
+
+/* carousel pics*/
+
+.background-bike {
+  background-image: url(../images/jumbotron-bike.jpg);
+}
+
+.background-beer {
+  background-image: url(../images/jumbotron-beer.jpg);
+}
+
+.background-flowers {
+  background-image: url(../images/jumbotron-flowers.jpg);
+}
+
+.background-duffel {
+  background-image: url(../images/jumbotron-duffel.jpg);
+}
+
+/* Slick carousel*/
+.slick-slide {
+  outline: none;
+}
+
+/* buttons*/
+
+.relative-wrapper{
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  display: inline-bock;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.button {
+  margin-top: 2.8rem;
+}
+
+.btn-primary {
+  padding: 1.3rem 0;
+  width: 11.4rem;
+  border: 0;
+  transition: .5s box-shadow;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover {
+  background-color: #399bd1;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+.btn-primary:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+
+/*featured project + projects section*/
+
+
+
+.categories ul {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* images in the body*/
+
+.image-container {
+  overflow: hidden;
+  height: 13.5rem;
+}
+
+/* the opacity and transition parts are placed for the effect on the pictures*/
+.image-container img {
+  opacity: 0.7;
+  transition: transform .5s, opacity .5s;
+  transition: transform .5s, opacity .5s;
+  transition: transform 0.5s, opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+/* end*/
+
+/* to remove the extra margin - (negative are not reccomended)*/
+.featured-project {
+  margin-top: -7rem;
+}
+
+.featured-project .image-container {
+  height: 19rem;
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+
+/*projects section*/
+
+.project {
+  padding-bottom: 5.85rem;
+}
+
+
+/* having trouble section*/
+
+.having-trouble {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0;
+  text-align: center;
+}
+
+.having-trouble p {
+  padding-top: 1.4rem;
+  max-width: 42rem;
+  margin: auto;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  strong {
+    font-size: 2.5rem;
+    padding: 0 10px;
+  }
+
+  .having-trouble p {
+    max-width: 25rem;
+  }
+
+}
